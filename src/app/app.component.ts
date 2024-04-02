@@ -136,7 +136,6 @@ export class AppComponent {
     
     this.translationRecognizer = new TranslationRecognizer(this.speechTranslationConfig, this.audioConfig); 
 
-    debugger
     // Check if translationRecognizer is initialized before starting recognition
     if (this.translationRecognizer) {
       console.log("Translation recognizer is intialized successfully.");
