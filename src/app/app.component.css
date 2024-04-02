@@ -1,0 +1,39 @@
+.button-normal {
+    background-color: blue;
+    color: white;
+}
+
+.button-active {
+background-color: red;
+color: white;
+}
+.instructions{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(61, 159, 163);
+}
+.note{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:lightcoral;
+}
+selection{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    padding:  5pxs;
+    display: flex;
+    flex-direction: column;
+    width : 25%;
+}
+button{
+    background-color:rgb(125, 230, 105);
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    padding: 7px;
+}
+h1{
+    color:green;
+}
+
